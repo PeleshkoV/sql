@@ -15,16 +15,20 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
-Your answer...
-```
+My answer:
+Keeping customer addresses can be important for delivery purposes and also useful for advertisement. Of course, in this case, the business is responsible for the customer’s data protection. On the other hand, I don’t see necessary for the bookstore to track information about customer’s previous addresses. In this case, historical data is not needed. It can lead to the mistakes in delivery process. I've had such an experience.
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
-Your answer...
-```
+My answer:
+The AdventureWorks Schema is great, very detailed and organized. I can highlight the next differences between this Schema and mine:
+-	AdventureWorks Schema was divided on functional blocks which is great for the big business. Instead of this example, I used mono-block ERD. In my opinion it can be enough for the little local store.   
+-	AdventureWorks Schema is very detailed and consist of many tables. For instance, it has full information about vendors, products, and employees records. My ERDs are not so detailed.
+-	 Tables in AdventureWorks Schema consist of records about unique keys. I didn’t include this attributes to my ERDs.  
+We don’t have enough input data for this assignment like business structure (one or more stores, physic store or/and online store), size of business (local store or chain with stores in different cities/states), shipping types capabilities and so on. Our ERDs depend on these factors. For this assignment, I guess this is a local book store with Instagram online-sales. 
 
 # Criteria
 
